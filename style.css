@@ -101,7 +101,9 @@ header{
     display: flex;
     justify-content: center;
     text-align: center;
-
+    object-fit: fill;
+    background-size: cover;
+    
 }
 
 .home-content{
@@ -167,18 +169,21 @@ header{
 
 .aboutme{
 
-    height: 40vh;
+    height: 50vh;
     width: 100vw;
     background-color:  #520066;
 }
 
 .aboutme-text{
+
+    top: 5rem;
     color: #ffffff;
     width: 100vw;
     height: 50vh;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    
     align-items: center;
 }
 
